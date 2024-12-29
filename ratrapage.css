@@ -56,3 +56,21 @@ a{
 .image{
     padding-right: 25px;
 }
+.apprentissage{
+    text-align: center;
+}
+.second{
+    display: flex;
+    background-color:  #FAF3E9;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 2px;
+    width: 100px;
+
+}
+.seconds{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
