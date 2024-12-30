@@ -57,6 +57,9 @@ a{
     padding-right: 25px;
 }
 .apprentissage{
+    padding: 150px;
+}
+.centrer{
     text-align: center;
 }
 .second{
@@ -66,11 +69,57 @@ a{
     border: 1px solid #ddd;
     margin: 20px;
     border-radius: 2px;
-    width: 100px;
+    height: 30px;
+    text-align: center;
+    width: 200px;
+    
 
 }
 .seconds{
     display: flex;
     text-align: center;
     align-items: center;
+    
 }
+.voir{
+    color: red;
+}
+span{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 8px;
+    height: 50px;
+    text-align: center;
+    width: 120px;
+    
+}
+.message{
+
+  display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 8px;
+    height: 50px;
+    text-align: center;
+    width: 80%; 
+}
+.right{
+    padding: 10px 15px;
+}
+.inscription{
+    background-color:#FAF3E9; 
+}
+.span{display: flex;}
+footer{
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.source{
+  width: 100px;  
+}
+
+
