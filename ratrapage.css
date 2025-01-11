@@ -60,9 +60,6 @@ a{
 .image{
     padding-right: 25px;
 }
-.apprentissage{
-    padding: 150px;
-}
 .centrer{
     text-align: center;
 }
@@ -191,7 +188,51 @@ textarea{
     display: flex;
     justify-content: end;
 }
+.container-grid{
+    display: grid;
+    grid-template-columns:repeat(9,1fr) ;
+    grid-template-rows:repeat( 3,1fr);
+  
+    gap: 20px;
+ 
+    
+}
+.container-grid div:nth-child(1){
+ 
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/4;
+    grid-column: 1/4;
+  
+}
+.container-grid div:nth-child(2){
+ 
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/4;
+    grid-column: 4/7;
 
+}
+.container-grid div:nth-child(3){
+ 
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/4;
+    grid-column: 7/10;
+   
+}
+.item{
+    background-color:#FAF3E9; 
+}
+body{
+    padding: 20px;
+}
 
 
 
